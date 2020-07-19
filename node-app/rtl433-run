@@ -1,0 +1,5 @@
+#!/bin/sh
+
+echo starting rtl_433 decoder for a Sharp SPC775 on 917.2MHz, outputting to influxdb on localhost
+
+rtl_433 -Y classic -f 917.2M -s 250k -R 157 -M time:unix:utc:usec -M level -F influx://localhost:8086/write?db=rtl433
