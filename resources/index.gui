@@ -1,0 +1,5 @@
+<svg class="background">
+  <text id="connection"/>
+  <text id="temperature"/>
+  <text id="humidity"/>
+</svg>

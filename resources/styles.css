@@ -1,0 +1,35 @@
+.background {
+  viewport-fill: black;
+}
+
+#temperature {
+  fill: green;
+  font-size: 100;
+  font-family: System-Regular;
+  font-weight: bold;
+  text-anchor: middle;
+  text-length: 10;
+  x: 50%;
+  y: 50%-20;
+}
+
+#humidity {
+  fill: green;
+  font-size: 100;
+  font-family: System-Regular;
+  font-weight: bold;
+  text-anchor: middle;
+  text-length: 10;
+  x: 50%;
+  y: 50%+80;
+}
+
+#connection {
+  font-size: 28;
+  font-family: System-Regular;
+  text-length: 20;
+  text-anchor: start;
+  x: 0;
+  y: 20;
+  fill: white;
+}
